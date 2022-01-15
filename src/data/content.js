@@ -4,9 +4,9 @@ import iconCollaboration from '../images/icon-collaboration.svg'
 import iconSecurity from '../images/icon-security.svg'
 import stayProductive from '../images/illustration-stay-productive.png'
 import iconArrow from '../images/icon-arrow.svg'
-import iconEmail from '../images/icon-email.svg'
-import iconLocation from '../images/icon-location.svg'
-import iconPhone from '../images/icon-phone.svg'
+// import iconEmail from '../images/icon-email.svg'
+// import iconLocation from '../images/icon-location.svg'
+// import iconPhone from '../images/icon-phone.svg'
 
 
 
