@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
-}
+@import url(./Styles/global.css);
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+    /* -----Navigation Section----- */
+.navigationSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
+.logo{
+    height: auto ;
+    width: 10rem;
+    border: 3px solid yellow;
+}
+.navLinks{
+    display: flex;
+    flex-direction: row;
+}
+.navLinkItem{
+    padding: .5rem 1rem;
+}
+.navLinkItem a{
+    font-size: 1.4rem;}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/* 
+body{
+    background-color: var(--Cyan-CTA-Gr);
+}  */
+        /* ----Homepage Section------ */
+        .home{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color:var(--Dark-Blue-Intro);
+            position:relative;
+            width: 100%;
+            max-width: 42.5rem ;
 
-.App-link {
-  color: #61dafb;
-}
+            
+        }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+        /* ------Introduction Section----- */
+        .introSection{
+            /* border: 1px solid red; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            background-color: var(--Dark-Blue-Intro);
+            background: url(./images/bg-curvy-mobile.svg) no-repeat bottom ;
+            background-size:200%;
+        }
+        .introIllus{
+            height: 24rem;
+            width: auto;
+            margin-top: 4rem;
+        }
+        .introText{
+            font-size:2.5rem;
+            /* border: 1px solid red; */
+            padding: 2rem;
+        }
+        .introPgraph{
+            font-size: var(--Font-Body);
+            padding: 2rem 4rem;
+            /* border: 1px solid blue; */
+        }
+        .ctaGetStarted{
+            font-size: var(--Font-Body);
+            font-weight: 500;
+            padding: 1rem 6rem;
+            background-image:linear-gradient(to right, var(--Cyan-CTA-Gr) 0%,var(--Blue-CTA-Gr)100% ) ;
+            border-radius: 2rem;
+            border-style: none;
+        }
+
+        /* -----Feature Section----- */
+        .featuresSection{
+            background-color: var(--Dark-Blue-Main);
+            width: 100%;
+        }
+        .featureContainer{
+            margin: 8rem 4rem;
+
+            
+            /* border:1px solid white; */
+        }
+        .featureIcon{
+            transform: scale(0.7);
+        }
+        .featureHeadText{
+            font-size: 1.7rem;
+            font-weight: 700;
+            padding: 1.5rem;
+            font-family: Raleway;
+        }
+        .featurePtext{
+            font-size: var(--Font-Body);
+        }
+
+        /* @media screen and (min-width:) {
+            
+        } */
