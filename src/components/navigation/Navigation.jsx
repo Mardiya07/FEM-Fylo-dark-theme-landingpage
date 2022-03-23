@@ -10,7 +10,7 @@ const Navigation = () => {
             <ul className='navLinks'>
             {navLinks.map((linkItem ,index)=>{
                 return(
-                    <li key={index} className='navLinkItem'> <a href={linkItem.url} > {linkItem.name}</a></li>
+                    <li key={index} className='navLinkItem fontHeadnCTAs'> <a href={linkItem.url} > {linkItem.name}</a></li>
                 )
             })}
             </ul>

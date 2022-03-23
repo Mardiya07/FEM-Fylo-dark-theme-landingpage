@@ -43,3 +43,10 @@ body{
   color:var(--White);
   text-align: center;
 }
+.fontBody{
+  font-family: 'Open Sans', sans-serif;
+}
+.fontHeadnCTAs{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}

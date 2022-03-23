@@ -3,6 +3,7 @@ import Navigation from '../../components/navigation/Navigation'
 import FeaturesSection from '../../components/FeaturesSection'
 import IntroSection from '../../components/IntroSection'
 import Extrafeature from '../../components/Extrafeature'
+import TestimonialSection from '../../components/testimonials/TestimonialSection'
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
           <IntroSection/>
           <FeaturesSection/>
           <Extrafeature/>
+          <TestimonialSection/>
         </div>
     )
 }

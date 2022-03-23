@@ -4,6 +4,9 @@ import iconCollaboration from '../images/icon-collaboration.svg'
 import iconSecurity from '../images/icon-security.svg'
 import stayProductive from '../images/illustration-stay-productive.png'
 import iconArrow from '../images/icon-arrow.svg'
+import  profile1 from '../images/profile-1.jpg'
+import profile2 from '../images/profile-2.jpg'
+import profile3 from '../images/profile-3.jpg'
 // import iconEmail from '../images/icon-email.svg'
 // import iconLocation from '../images/icon-location.svg'
 // import iconPhone from '../images/icon-phone.svg'
@@ -73,7 +76,7 @@ export const feature=[
     
 ]
 export const icons={
-        iconArrow, 
+        iconArrow 
     }
 
 export const extraFeature={ 
@@ -86,3 +89,29 @@ export const extraFeature={
         // iconArrow:iconArrow
     }
 }
+export const testimonial=[
+    {
+        id:1,
+        avatar:profile1,
+        testimonialBody:'Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has becone a well-oiled collaboration machine.',
+        giverName:'Satish Patel',
+        giverTitle:'Founder & CEO',
+        giverCompany:'Huddle'
+    },
+    {
+        id:2,
+        avatar:profile2,
+        testimonialBody:'Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has becone a well-oiled collaboration machine.',
+        giverName:'Bruce McKenzie',
+        giverTitle:'Founder & CEO',
+        giverCompany:'Huddle'
+    },
+    {
+        id:3,
+        avatar:profile3,
+        testimonialBody:'Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has becone a well-oiled collaboration machine.',
+        giverName:'Iva Boyd',
+        giverTitle:'Founder & CEO',
+        giverCompany:'Huddle'
+    }
+]
