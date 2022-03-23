@@ -1,13 +1,21 @@
 import React from 'react'
-import  {extraFeature}  from '../data/content'
+import {extraFeature,icons} from '../data/content'
 
 const Extrafeature = () => {
     return (
         <div className='extraFeatureSection'>
-            <div className="extraFeatureimgContainer">
-                <img src={extraFeature.illustration} alt="" />
+            <div className="extraFeatureImgContainer">
+                <img src={extraFeature.extra.illustration} alt="illustration of people holding cards" className='extraFeatureimg' />
             </div>
-            <h3 className="headText">{extraFeature.heading}</h3>
+            <div className="extraFeatureTextContainer">
+            <h3 className="headText">{extraFeature.extra.heading}</h3>
+            <p className="bodyText">{extraFeature.extra.paragraph1}</p>
+            <p className="bodyText">{extraFeature.extra.paragraph2}</p>
+             {/* a css :after could place the icon  */}
+            <div className='extraFeatureLinkWrapper'> 
+            <a href="#dd" className="linkText">{extraFeature.extra.linkText}</a><img src={icons.iconArrow} alt="arrow icon" className='iconArrow'/>
+            </div>
+            </div>
         </div>
     )
 }

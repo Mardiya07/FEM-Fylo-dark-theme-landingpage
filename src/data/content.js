@@ -72,13 +72,12 @@ export const feature=[
       
     
 ]
-export const icons=[
-    {
-        arrow:iconArrow
+export const icons={
+        iconArrow, 
     }
-]
-export const extraFeature=[
-    {
+
+export const extraFeature={ 
+   extra: {
         illustration:stayProductive,
         heading:'Stay productive, wherever you are',
         paragraph1:'Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.',
@@ -86,4 +85,4 @@ export const extraFeature=[
         linkText:'See how Fylo works'
         // iconArrow:iconArrow
     }
-]
+}
